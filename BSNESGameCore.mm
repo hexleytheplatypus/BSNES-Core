@@ -25,7 +25,6 @@
   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import <OpenGL/gl.h>
 #import "BSNESGameCore.h"
 #import "OESNESSystemResponderClient.h"
 
@@ -355,19 +354,19 @@
     return OEIntSizeMake(8, 7);
 }
 
-- (GLenum)pixelFormat
+- (uint32_t)pixelFormat
 {
-    return GL_BGRA;
+    return OEPixelFormat_BGRA;
 }
 
-- (GLenum)pixelType
+- (uint32_t)pixelType
 {
-    return GL_UNSIGNED_INT_8_8_8_8_REV;
+    return OEPixelType_UNSIGNED_INT_8_8_8_8_REV;
 }
 
-- (GLenum)internalPixelFormat
+- (uint32_t)internalPixelFormat
 {
-    return GL_RGB8;
+    return OEPixelFormat_RGB;
 }
 
 - (NSTimeInterval)frameInterval

@@ -74,7 +74,6 @@
 		0167A59C23B9861000F0B36E /* libco.c in Sources */ = {isa = PBXBuildFile; fileRef = 0167A53B23B9843700F0B36E /* libco.c */; };
 		82B9198810150FA9007BD6DB /* bsnes.icns in Resources */ = {isa = PBXBuildFile; fileRef = 82B9198710150FA9007BD6DB /* bsnes.icns */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
-		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 		94D9257314CA9879008F697D /* BSNESGameCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 826FE0F41014D8930023A8E9 /* BSNESGameCore.mm */; };
 		C6D120EC1711307900E868A8 /* OpenEmuBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D120EB1711307900E868A8 /* OpenEmuBase.framework */; };
 /* End PBXBuildFile section */
@@ -760,7 +759,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6D120EC1711307900E868A8 /* OpenEmuBase.framework in Frameworks */,
-				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
